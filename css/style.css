@@ -106,3 +106,53 @@ nav {
     margin-top: 8px;
     font-size: 18px;
   }
+
+  /* footer */
+
+  footer {
+    background-image: url(/img/Footer.jpg);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-right: 20px;
+    font-size: 16px;
+    color: #f3e9e9;
+  }
+  
+  .fa-brands {
+    font-size: 24px;
+    padding: 5px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .fa-instagram:hover {
+    color: #E1306C;
+  }
+  
+  .fa-square-facebook:hover {
+    color: #3B5998;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
