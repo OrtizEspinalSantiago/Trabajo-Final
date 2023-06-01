@@ -330,3 +330,14 @@ nav {
   align-items: center;
   justify-content:center
 }
+
+
+/*  PRODUCTOS  */
+
+.body-productos{
+  background-color: #686565;
+}
+
+.d-grid {
+  margin: 15px;
+}
